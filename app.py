@@ -6,9 +6,7 @@ from PIL import Image
 st.set_page_config(page_title="Gerador de Testes para Chatbot (Cloud)", layout="centered")
 
 st.title("🤖 Gerador de Cenários de Teste para Chatbot")
-st.markdown("Gere cenários no formato **Dado que... Quando... Então...** com IA gratuita da Hugging Face.
-"
-            "Você pode anexar uma imagem do Figma para referência visual.")
+st.markdown("Gere cenários no formato **Dado que... Quando... Então...** com IA gratuita da Hugging Face.")
 
 # Entrada de dados
 bot_name = st.text_input("🧠 Nome do Bot", placeholder="Ex: Chatbot Citroën")
@@ -39,7 +37,6 @@ Crie pelo menos:
 Use linguagem clara e profissional. Separe os cenários por tipo.
 """
 
-# Chave pública do Hugging Face (sem autenticação)
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
 
 headers = {
