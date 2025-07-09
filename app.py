@@ -40,7 +40,7 @@ Use linguagem clara e profissional. Separe os cenários por tipo.
 API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
 
 headers = {
-    "Authorization": "Bearer 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",  # Troque aqui
+    "Authorization": "Bearer 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",  # Troque aqui
     "Content-Type": "application/json"
 }
 
