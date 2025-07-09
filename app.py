@@ -47,6 +47,7 @@ if st.button("🚀 Gerar Cenários com IA"):
         prompt = gerar_prompt(bot_name, objetivo, contexto, tipo_teste, imagem is not None)
         st.info("⏳ Enviando para IA da Hugging Face...")
 
+        # 👇 agora sim: api_token já existe
         headers = {
             "Authorization": f"Bearer {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}",
             "Content-Type": "application/json"
@@ -67,3 +68,4 @@ if st.button("🚀 Gerar Cenários com IA"):
                 st.code(output, language="gherkin")
         except Exception as e:
             st.error(f"Erro ao chamar a IA: {e}")
+
