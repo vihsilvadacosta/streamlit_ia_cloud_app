@@ -40,6 +40,7 @@ Use linguagem clara e profissional. Separe os cenários por tipo.
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
 
 headers = {
+    "Authorization": "Bearer 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",
     "Content-Type": "application/json"
 }
 
