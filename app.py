@@ -37,10 +37,10 @@ Crie pelo menos:
 Use linguagem clara e profissional. Separe os cenários por tipo.
 """
 
-API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
+API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
 
 headers = {
-    "Authorization": "Bearer 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",
+    "Authorization": "Bearer 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",  # Troque aqui
     "Content-Type": "application/json"
 }
 
